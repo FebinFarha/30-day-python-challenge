@@ -1,0 +1,63 @@
+
+dollars = float(input("Enter the amount in dollars: "))
+exchange_rate = 82.7  # Example exchange rate (1 USD = 82.7 INR)
+rupees = dollars * exchange_rate
+print(f"{dollars} dollars is equal to {rupees:.2f} rupees."
+
+a = input("Enter the first variable (a): ")
+b = input("Enter the second variable (b): ")
+print(f"Before swapping: a = {a}, b = {b}")
+a, b = b, a
+print(f"After swapping: a = {a}, b = {b}
+
+
+number = int(input("Enter a number: "))
+if number > 50:
+    print("Hurray!")
+else:
+    print("The number is not greater than 50.")
+
+
+number = float(input("Enter a number: "))
+if number > 0:
+    print("The number is positive.")
+else:
+    print("The number is not positive.")
+
+
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+
+number = int(input("Enter a number: "))
+if number % 2 == 0:
+    print("Divisible")
+else:
+    print("Not divisible")
+
+
+print("1: Convert Kilometres to Miles")
+print("2: Convert Miles to Kilometres")
+choice = int(input("Enter your choice (1 or 2): "))
+
+if choice == 1:
+    km = float(input("Enter distance in kilometres: "))
+    miles = km * 0.621371
+    print(f"{km} kilometres is equal to {miles:.2f} miles.")
+elif choice == 2:
+    miles = float(input("Enter distance in miles: "))
+    km = miles / 0.621371
+    print(f"{miles} miles is equal to {km:.2f} kilometres.")
+else:
+    print("Invalid choice!")
+
+
+number = float(input("Enter a number: "))
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
