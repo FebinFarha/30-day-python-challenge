@@ -4,42 +4,41 @@ print('day 4')
 print()
 print('4.1 TO PRINT FIRST 10 EVEN NUMBERS USING WHILE LOOP')
 print()
-n=0
-i=1
-while n<20:
-    n=n+2
-    i=i+1
-    print(n)
+i=0
+while i<20:
+    i=i+2
+    print(i)
 print()    
 print('4.2 TO PRINT FIRST 10 ODD NUMBERS USING WHILE LOOP')
 print()
-n=1
-print(n)
 i=1
-while n<20:
-    n=n+2
-    i=i+1
-    print(n)
+print(i)
+while i<20:
+    i=i+2
+    print(i)
 print()
 print('4.3 TO PRINT FIRST 10 NATURAL NUMBERS USING WHILE LOOP')
 print()
-n=0
-i=1
-while n<10:
-    n=n+1
+
+i=0
+while i<10:
     i=i+1
-    print(n)
+    print(i)
 print()
 print('4.4 TO PRINT FIRST 10 WHOLE NUMBERS USING WHILE LOOP')
 print()
-n=0
-print(n)
-i=1
-while n<10:
-    n=n+1
+i=0
+print(i)
+while i<10:
     i=i+1
-    print(n)
+    print(i)
 print()
+print('4.5 TO PRINT FIRST 10 NATURAL NUMBERS IN REVERSE ORDER USING WHILE LOOP ')
+i=10
+print(i)
+while i>1:
+    i=i-1
+    print(i)
 print('4.6 TO PRINT FOLLOWING SERIES 10,20,30....300 USING WHILE LOOP')
 print()
 n=10
