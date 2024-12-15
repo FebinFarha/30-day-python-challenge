@@ -38,4 +38,4 @@ num2=int(input('Enter the number:',))
 quo=num1/num2
 rem=num1%num2
 print('quotient:',quo)
-print('reminder:',rem)day2
+print('reminder:',rem)
