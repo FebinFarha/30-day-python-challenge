@@ -45,3 +45,23 @@ print("Fibonacci series:", fibonacci(n_terms))
 
 for i in range(1, 6):
     print(str(i) * 4)
+
+# Python script that displays various date and time formats:
+
+
+```
+from datetime import datetime
+
+# Get current date and time
+now = datetime.now()
+
+# Display various date and time formats
+print("Current date and time: ", now.strftime("%Y-%m-%d %H:%M:%S"))
+print("Current year: ", now.strftime("%Y"))
+print("Month of year: ", now.strftime("%B"))
+print("Week number of the year: ", now.strftime("%W"))
+print("Weekday of the week: ", now.strftime("%A"))
+print("Day of year: ", now.strftime("%j"))
+print("Day of the month: ", now.strftime("%d"))
+print("Day of week: ", now.strftime("%w"))
+```
