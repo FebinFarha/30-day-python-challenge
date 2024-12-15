@@ -35,4 +35,4 @@ sub1=float(input('Enter the mark:'))
 sub2=float(input('Enter the mark:'))
 sub3=float(input('Enter the mark:'))
 avg=(sub1+sub2+sub3)/3
-print('Average Marks:',avg)day1.1
+print('Average Marks:',avg)
